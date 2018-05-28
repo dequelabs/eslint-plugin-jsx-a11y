@@ -3,10 +3,14 @@
  * @author Ethan Cohen
  */
 
+import axeRules from 'eslint-axe/lib/rules';
+
+module.exports = axeRules['aria-roles'];
+
 // ----------------------------------------------------------------------------
 // Rule Definition
 // ----------------------------------------------------------------------------
-
+/*
 import { dom, roles } from 'aria-query';
 import { getLiteralPropValue, propName, elementType } from 'jsx-ast-utils';
 import { generateObjSchema } from '../util/schemas';
@@ -67,3 +71,4 @@ module.exports = {
     },
   }),
 };
+*/
