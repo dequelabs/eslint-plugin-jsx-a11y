@@ -3,6 +3,11 @@
  * @author Ethan Cohen
  */
 
+import axeRules from 'eslint-axe/lib/rules';
+
+module.exports = axeRules['empty-heading'];
+
+/*
 // ----------------------------------------------------------------------------
 // Rule Definition
 // ----------------------------------------------------------------------------
@@ -52,3 +57,4 @@ module.exports = {
     },
   }),
 };
+*/
