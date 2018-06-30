@@ -3,7 +3,7 @@
  * @author Ethan Cohen
  */
 
-import axeRules from 'eslint-axe/lib/rules';
+import axeRules from 'eslint-axe';
 
 module.exports = axeRules['aria-roles'];
 
